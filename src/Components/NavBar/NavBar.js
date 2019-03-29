@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class NavBar extends Component {
     render() {
         return (
@@ -18,8 +18,8 @@ class NavBar extends Component {
                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                 Informacion
                         </a>
-                            <div className="dropdown-menu">
-                                <a className="dropdown-item" href="Carreras">Carreras</a>
+                            <div className="dropdown-menu">z
+                                <a className="dropdown-item" href="Seguridad">Carreras</a>
                                 <a className="dropdown-item" href="Seguridad">Seguridad</a>
                                 <a className="dropdown-item" href="Historial_de_notas">Historial de notas</a>
                                 <a className="dropdown-item" href="Perfil_de_estudiante">Perfil de estudiante</a>
