@@ -5,8 +5,8 @@ class NavBar extends Component {
             <nav className="nav-extended" >
                 <div className="nav-wrapper" class = 'blue'>
                 <a className="navbar-brand" href="1" >
-                    <img src="http://www.usap.edu/wp-content/uploads/2018/06/Logo-USAP-naranja-2.png" width="170"
-                     height="60" alt=""></img>
+                    <img src="http://www.usap.edu/wp-content/uploads/2014/03/usap-logo-white-500c.png" width="200"
+                     height="70" alt=""></img>
                 </a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li><a href="sass.html">Sugerencias</a></li>
