@@ -25,10 +25,8 @@ class SideNav extends Component {
                 <a href="#email"><span className="black-text email">Demmy.aguilar@usap.edu</span></a>
                 <li><div className="divider"></div></li>
             </li>
-            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">First Link With Icon</a></li>
             <li><a href="#!">Second Link</a></li>
-            <li><a className="subheader">Subheader</a></li>
-            <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
             </ul>
             <a href="#1" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         </div> 
