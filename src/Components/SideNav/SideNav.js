@@ -6,8 +6,8 @@ class SideNav extends Component {
 
     componentDidMount() {
         var elem = document.querySelector(".sidenav");
-        var instance = M.Sidenav.init(elem, {
-            edge: "left",
+        M.Sidenav.init(elem, {
+            edge: "right",
             inDuration: 250
         });
     }
@@ -28,7 +28,7 @@ class SideNav extends Component {
             <li><a href="#!">First Link With Icon</a></li>
             <li><a href="#!">Second Link</a></li>
             </ul>
-            <a href="#1" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+            <a href="#1" data-target="slide-out" className="btn-floating btn-large  waves-light red blue sidenav-trigger right"><i className="material-icons right">add</i></a>
         </div> 
     );
   }
