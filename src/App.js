@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-//import NavBar from './Components/NavBar/NavBar';
-//import SideNav from './Components/SideNav/SideNav';
-//import RegistrationMenu from './Components/RegistrationMenu/RegistrationMenu';
 import Login from './Components/Login/Login'
+//import Home from './Components/Home/Home';
+
 
 class App extends Component {
   render() {

@@ -4,7 +4,7 @@ class NavBar extends Component {
         return (
             <nav className="nav-extended" >
                 <div className="nav-wrapper" class = 'blue'>
-                <a className="navbar-brand" href="1" >
+                <a className="navbar-brand" href="home" >
                     <img src="http://www.usap.edu/wp-content/uploads/2014/03/usap-logo-white-500c.png" width="250"
                      height="80" alt=""></img>
                 </a>

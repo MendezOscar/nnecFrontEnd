@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import '../Login/Logincss.css';
+//import Home from '../Home/Home';
+//import Route from 'react-router-dom/Route';
 
 class Login extends Component {
   render() {
     return (
-          <div className="row login">
-            <div className= "col s12 l4 offset-l4">
-              <div className= "card">
-                <div className="card-action blue white-text">
+      <div className="row login">
+          <div className= "col s12 l3 offset-l1">
+            <div className= "card">
+              <div className="card-action blue white-text">
                     <h3>Login</h3>
                 </div>
                 <div className="card-content">
@@ -26,12 +28,12 @@ class Login extends Component {
                     </div>
                     <br/>
                     <div className="form-field center-align">
-                      <button className="btn-large blue">Ingresar</button>
+                        <button className="btn-large blue" >Ingresar</button>
                     </div>
                 </div>
               </div>
             </div>
-         </div>
+         </div>  
     );
   }
 }

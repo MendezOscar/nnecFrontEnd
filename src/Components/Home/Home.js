@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
 import NavBar from '../NavBar/NavBar';
+import RegistrationMenu from '../RegistrationMenu/RegistrationMenu';
+import SideNav from '../SideNav/SideNav';
 
 
 class Home extends Component {
   render() {
     return (
       <div className="page">
-        <NavBar/>
+        <NavBar />
         <br/>
-        <h1>Bienvenido a Siga Web</h1>
+        <div class="row">
+          <div class="col s12 m4 l3">
+          <RegistrationMenu/>
+          </div>
+          <div class="col s12 m8 l9">
+          <SideNav/>
+          </div>
+        </div>
       </div>
     );
   }
