@@ -1,7 +1,13 @@
 import React from 'react';
-import {Route} from 'react-router';
+import {BrowserRouter,  Route,  Switch} from 'react-router-dom';
 import Home from '../Home/Home';
+import Login from '../Login/Login';
 
 export default () => (
-      <Route exact path="/home" component={Home}/>
+      <BrowserRouter >
+      <Switch>
+          <Route path="/home" component={Home}/>
+          <Route path="/login" component={Login}/>
+      </Switch>
+  </BrowserRouter>
 );

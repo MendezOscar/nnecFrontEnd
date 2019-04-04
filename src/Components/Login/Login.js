@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 import '../Login/Logincss.css';
-//import Home from '../Home/Home';
-//import Route from 'react-router-dom/Route';
+import NavBarLogin from '../NavBarLogin/NavBarLogin';
 
 class Login extends Component {
+
   render() {
     return (
-      <div className="row login">
-          <div className= "col s12 l3 offset-l1">
+      <div>
+        <NavBarLogin/>
+        <div className="row login">
+          <div className= "col s11 l3 offset-l8">
             <div className= "card">
               <div className="card-action blue white-text">
-                    <h3>Login</h3>
+                    <h3>INGRESAR</h3>
                 </div>
                 <div className="card-content">
                     <div className="form-field">
-                      <label for="username">Usuario</label>
+                      <label className="username">Usuario</label>
                       <input type="text" id="username"></input>
                     </div>
                     <br/>
                     <div className="form-field">
-                      <label for="password">Clave</label>
+                      <label className="password">Clave</label>
                       <input type="password" id="password"></input>
                     </div>
                     <br/>
@@ -28,12 +30,14 @@ class Login extends Component {
                     </div>
                     <br/>
                     <div className="form-field center-align">
-                        <button className="btn-large blue" >Ingresar</button>
+                    <a className="waves-effect waves-light btn-large" href="/home">Ingresar</a>
                     </div>
                 </div>
               </div>
             </div>
          </div>  
+         </div>
+      
     );
   }
 }

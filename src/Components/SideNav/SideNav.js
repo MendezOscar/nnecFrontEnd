@@ -15,7 +15,7 @@ class SideNav extends Component {
   render() {
     return (
         <div>
-            <ul id="slide-out" class="sidenav">
+            <ul id="slide-out" className="sidenav">
             <li>
                 <a href="#user"><img className="circle" src="https://i.ibb.co/Bwq9WvJ/descarga.jpg" alt="businessman-863430" border="0"/></a>
                 <br/>
@@ -23,7 +23,7 @@ class SideNav extends Component {
                  <br/>
                 <a href="#name"><span className="black-text name">Demmy Johan</span></a>
                 <a href="#email"><span className="black-text email">Demmy.aguilar@usap.edu</span></a>
-                <li><div className="divider"></div></li>
+                <div className="divider"></div>
             </li>
             <li><a href="#!">First Link With Icon</a></li>
             <li><a href="#!">Second Link</a></li>

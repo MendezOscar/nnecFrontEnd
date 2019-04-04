@@ -10,11 +10,11 @@ class Home extends Component {
       <div className="page">
         <NavBar />
         <br/>
-        <div class="row">
-          <div class="col s12 m4 l3">
+        <div className="row">
+          <div className="col s12 m4 l3">
           <RegistrationMenu/>
           </div>
-          <div class="col s12 m8 l9">
+          <div className="col s12 m8 l9">
           <SideNav/>
           </div>
         </div>

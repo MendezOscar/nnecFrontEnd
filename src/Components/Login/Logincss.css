@@ -1,11 +1,12 @@
-body{
-   background-image: url("https://i.ibb.co/yPw886T/Sin-t-tulo.png");
+/*body{
+   background-image: url("https://imgbox.es/images/2019/04/03/Sintitulo2bd63.png");
    background-size: cover; 
    color: #fff;
-}
+}*/
+
 
 .login{
-   margin-top: 100px;
+   margin-top: 50px;
 }
 
 .login .card{
